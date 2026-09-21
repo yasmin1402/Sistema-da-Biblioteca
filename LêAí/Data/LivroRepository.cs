@@ -10,5 +10,9 @@ namespace LêAí.Data
             livro.Id = proximoid++;
             _tabelaLivros.Add(livro);
         }
+        public list<Livros> ObterTodos()
+        {
+            return _tabelaLivros;
+        }
     }
 }
